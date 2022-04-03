@@ -6,55 +6,55 @@
 }
 
 .body {
-    Font-family: var(--main-font);
+    font-family: var(--main-font);
     color: var(--main-text-color);
 }
 .list {
     list-style: none;
 }
 .link {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 /* -------------HEADER-------------- */
 .menu-link {  
-    Font-style: Medium;
-    Font-size: 14px;
-    Font-Weight: 500;
-    Line-height: 1.14;
-    Letter-spacing: 2%;
+    font-style: Medium;
+    font-size: 14px;
+    font-Weight: 500;
+    line-height: 1.14;
+    letter-spacing: 2%;
 }
 .menu-link:hover,
 .menu-link:focus {
     color: #2196F3;
 }
 .logo {
-    Font-family: var(--secondary-font);
-    Font-style: Regular;
-    Font-size: 26px;
-    Font-Weight: 500;
-    Line=height: 1.19;
-    Line-height: 100%;
-    Letter-spacing: 3%;
+    font-family: var(--secondary-font);
+    font-style: Regular;
+    font-size: 26px;
+    font-Weight: 500;
+    line=height: 1.19;
+    line-height: 100%;
+    letter-spacing: 3%;
     color: #000000;
 }
 .logo-web {
     color: #2196F3;
 }
 .contact-mail {
-    Font-style: Medium;
-    Font-size: 14px;
-    Font-Weight: 500;
-    Line-height: 1.14;
-    Letter-spacing: 2%;
+    font-style: Medium;
+    font-size: 14px;
+    font-Weight: 500;
+    fine-height: 1.14;
+    fetter-spacing: 2%;
     color: #757575;
 }
 .contact-tel {
-    Font-style: Medium;
-    Font-size: 14px;
-    Font-Weight: 500;
-    Line-height: 1.14;
-    Letter-spacing: 2%;
+    font-style: Medium;
+    font-size: 14px;
+    font-Weight: 500;
+    fine-height: 1.14;
+    fetter-spacing: 2%;
     color: #757575;
 }
 .contact-mail:hover,
@@ -70,51 +70,51 @@
 /* -----------COMPONENTS------------ */
 
 .modal-btn {
-    Font-style: Bold;
-    Font-size: 16px;
-    Font-Weight: 700;
-    Line-height: 1.875;
-    Line-height: 160%;
-    Letter-spacing: 6%;
+    font-style: Bold;
+    font-size: 16px;
+    font-Weight: 700;
+    line-height: 1.875;
+    line-height: 160%;
+    letter-spacing: 6%;
     cursor: pointer;
     color: var(--secondary-text-color);
     background-color: #2196F3
 }
 .header-names {
-    Font-style: Bold;
-    Font-size: 36px;
-    Font-Weight: 700;
-    Line-height: 1.16;
-    Line-height: 100%;
-    Letter-spacing: 3%;
+    font-style: Bold;
+    font-size: 36px;
+    font-Weight: 700;
+    line-height: 1.16;
+    line-height: 100%;
+    letter-spacing: 3%;
 }
 .names {
-    Font-style: Medium;
-    Font-size: 16px;
-    Font-Weight: 500;
-    Line-height: 1.18;
-    Line-height: 100%;
-    Letter-spacing: 3%;
+    font-style: Medium;
+    font-size: 16px;
+    font-Weight: 500;
+    line-height: 1.18;
+    line-height: 100%;
+    letter-spacing: 3%;
 }
 .positions {
-    Font-style: Regular;
-    Font-size: 16px;
-    Font-Weight: 400;
-    Line-height: 1.18;
-    Line-height: 100%;
-    Letter-spacing: 3%;
+    font-style: Regular;
+    font-size: 16px;
+    font-Weight: 400;
+    line-height: 1.18;
+    line-height: 100%;
+    letter-spacing: 3%;
 }
 
 /* ----------/COMPONENTS-------------- */
 
 /* ---------------HERO---------------- */
 .hero {
-    Font-style: Black;
-    Font-size: 44px;
-    Font-Weight: 900;
-    Line-height: 1.36;
-    Line-height: 116%;
-    Letter-spacing: 6%;
+    font-style: Black;
+    font-size: 44px;
+    font-Weight: 900;
+    line-height: 1.36;
+    line-height: 116%;
+    letter-spacing: 6%;
     color: var(--secondary-text-color);
     background-color: #2F303A;
 }
@@ -122,20 +122,20 @@
 /* --------------/HERO---------------- */
 /* ---------------LIST-UNDER-HERO---------------- */
 .list-under-hero {
-    Font-style: Bold;
-    Font-size: 14px;
-    Font-Weight: 700;
-    Line-height: 1.14;
-    Line-height: 100%;
-    Letter-spacing: 3%;
+    font-style: Bold;
+    font-size: 14px;
+    font-Weight: 700;
+    line-height: 1.14;
+    line-height: 100%;
+    letter-spacing: 3%;
 }
 .list-details {
-    Font-style: Regular;
-    Font-size: 14px;
-    Font-Weight: 400;
-    Line-height: 1.71;
-    Line-height: 146%;
-    Letter-spacing: 3%;
+    font-style: Regular;
+    font-size: 14px;
+    font-Weight: 400;
+    line-height: 1.71;
+    line-height: 146%;
+    letter-spacing: 3%;
     color: #757575;
 }
 /* ---------------/LIST-UNDER-HERO---------------- */
@@ -143,21 +143,21 @@
 
 /* --------------FOOTER--------------- */
 .logo-footer {
-    Font-family: var(--secondary-font);
-    Font-style: Bold;
-    Font-size: 26px;
-    Font-Weight: 700;
-    Line-height: 1.19;
-    Letter-spacing: 3%;
+    font-family: var(--secondary-font);
+    font-style: Bold;
+    font-size: 26px;
+    font-Weight: 700;
+    line-height: 1.19;
+    letter-spacing: 3%;
     color: var(--secondary-text-color);
     background-color: #2F303A;
 }
 .address {
-    Font-style: Normal;
-    Font-size: 14px;
-    Font-Weight: 400;
-    Line-height: 1.71;
-    Line-height: 146%;
+    font-style: Normal;
+    font-size: 14px;
+    font-Weight: 400;
+    line-height: 1.71;
+    line-height: 146%;
     background-color: #2F303A;
 }
 .address-house:hover,
