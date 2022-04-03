@@ -1,0 +1,211 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-text-color: #212121;
+    --secondary-text-color: #FFFFFF;
+}
+
+.body {
+    Font-family: var(--main-font);
+    color: var(--main-text-color);
+}
+.list {
+    list-style: none;
+}
+.link {
+   text-decoration: none;
+}
+
+/* -------------HEADER-------------- */
+.menu-link {  
+    Font-style: Medium;
+    Font-size: 14px;
+    Font-Weight: 500;
+    Line-height: 1.14;
+    Letter-spacing: 2%;
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+.logo {
+    Font-family: var(--secondary-font);
+    Font-style: Regular;
+    Font-size: 26px;
+    Font-Weight: 500;
+    Line=height: 1.19;
+    Line-height: 100%;
+    Letter-spacing: 3%;
+    color: #000000;
+}
+.logo-web {
+    color: #2196F3;
+}
+.contact-mail {
+    Font-style: Medium;
+    Font-size: 14px;
+    Font-Weight: 500;
+    Line-height: 1.14;
+    Letter-spacing: 2%;
+    color: #757575;
+}
+.contact-tel {
+    Font-style: Medium;
+    Font-size: 14px;
+    Font-Weight: 500;
+    Line-height: 1.14;
+    Letter-spacing: 2%;
+    color: #757575;
+}
+.contact-mail:hover,
+.contact-mail:focus {
+    color: #2196F3;
+}
+.contact-tel:hover,
+.contact-tel:focus {
+    color: #2196F3;
+}
+/* ------------/HEADER-------------- */
+
+/* -----------COMPONENTS------------ */
+
+.modal-btn {
+    Font-style: Bold;
+    Font-size: 16px;
+    Font-Weight: 700;
+    Line-height: 1.875;
+    Line-height: 160%;
+    Letter-spacing: 6%;
+    cursor: pointer;
+    color: var(--secondary-text-color);
+    background-color: #2196F3
+}
+.header-names {
+    Font-style: Bold;
+    Font-size: 36px;
+    Font-Weight: 700;
+    Line-height: 1.16;
+    Line-height: 100%;
+    Letter-spacing: 3%;
+}
+.names {
+    Font-style: Medium;
+    Font-size: 16px;
+    Font-Weight: 500;
+    Line-height: 1.18;
+    Line-height: 100%;
+    Letter-spacing: 3%;
+}
+.positions {
+    Font-style: Regular;
+    Font-size: 16px;
+    Font-Weight: 400;
+    Line-height: 1.18;
+    Line-height: 100%;
+    Letter-spacing: 3%;
+}
+
+/* ----------/COMPONENTS-------------- */
+
+/* ---------------HERO---------------- */
+.hero {
+    Font-style: Black;
+    Font-size: 44px;
+    Font-Weight: 900;
+    Line-height: 1.36;
+    Line-height: 116%;
+    Letter-spacing: 6%;
+    color: var(--secondary-text-color);
+    background-color: #2F303A;
+}
+
+/* --------------/HERO---------------- */
+/* ---------------LIST-UNDER-HERO---------------- */
+.list-under-hero {
+    Font-style: Bold;
+    Font-size: 14px;
+    Font-Weight: 700;
+    Line-height: 1.14;
+    Line-height: 100%;
+    Letter-spacing: 3%;
+}
+.list-details {
+    Font-style: Regular;
+    Font-size: 14px;
+    Font-Weight: 400;
+    Line-height: 1.71;
+    Line-height: 146%;
+    Letter-spacing: 3%;
+    color: #757575;
+}
+/* ---------------/LIST-UNDER-HERO---------------- */
+
+
+/* --------------FOOTER--------------- */
+.logo-footer {
+    Font-family: var(--secondary-font);
+    Font-style: Bold;
+    Font-size: 26px;
+    Font-Weight: 700;
+    Line-height: 1.19;
+    Letter-spacing: 3%;
+    color: var(--secondary-text-color);
+    background-color: #2F303A;
+}
+.address {
+    Font-style: Normal;
+    Font-size: 14px;
+    Font-Weight: 400;
+    Line-height: 1.71;
+    Line-height: 146%;
+    background-color: #2F303A;
+}
+.address-house:hover,
+.address-house:focus {
+    color: #2196F3;
+}
+.address-house {   
+    color: var(--secondary-text-color);
+}
+.social-item {
+    color: rgba(255, 255, 255, 0.6);
+}
+.social-item:hover,
+.social-item:focus {
+    color: #2196F3;
+}
+
+
+/* -------------/FOOTER--------------- */
+
+/* ----------portfolio-main--------------- */
+.portfolio-main-nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    letter-spacing: 0.03em;
+}
+.portfolio-main-nav-item {
+    color: var(--main-text-color);
+    cursor: pointer;
+}
+.portfolio-main-nav-item:hover,
+.portfolio-main-nav-item:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.portfolio-menu {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-menu-text {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
