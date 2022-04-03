@@ -18,11 +18,12 @@
 
 /* -------------HEADER-------------- */
 .menu-link {  
-    font-style: Medium;
+    font-style: normal;
     font-size: 14px;
     font-Weight: 500;
     line-height: 1.14;
     letter-spacing: 2%;
+    color: var(--main-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -30,11 +31,10 @@
 }
 .logo {
     font-family: var(--secondary-font);
-    font-style: Regular;
+    font-style: normal;
     font-size: 26px;
     font-Weight: 500;
     line=height: 1.19;
-    line-height: 100%;
     letter-spacing: 3%;
     color: #000000;
 }
@@ -42,19 +42,19 @@
     color: #2196F3;
 }
 .contact-mail {
-    font-style: Medium;
+    font-style: normal;
     font-size: 14px;
     font-Weight: 500;
-    fine-height: 1.14;
-    fetter-spacing: 2%;
+    line-height: 1.14;
+    letter-spacing: 2%;
     color: #757575;
 }
 .contact-tel {
-    font-style: Medium;
+    font-style: normal;
     font-size: 14px;
     font-Weight: 500;
-    fine-height: 1.14;
-    fetter-spacing: 2%;
+    line-height: 1.14;
+    letter-spacing: 2%;
     color: #757575;
 }
 .contact-mail:hover,
@@ -70,38 +70,27 @@
 /* -----------COMPONENTS------------ */
 
 .modal-btn {
-    font-style: Bold;
+    font-style: normal;
     font-size: 16px;
     font-Weight: 700;
     line-height: 1.875;
-    line-height: 160%;
     letter-spacing: 6%;
     cursor: pointer;
     color: var(--secondary-text-color);
     background-color: #2196F3
 }
-.header-names {
-    font-style: Bold;
-    font-size: 36px;
-    font-Weight: 700;
-    line-height: 1.16;
-    line-height: 100%;
-    letter-spacing: 3%;
-}
 .names {
-    font-style: Medium;
+    font-style: normal;
     font-size: 16px;
     font-Weight: 500;
     line-height: 1.18;
-    line-height: 100%;
     letter-spacing: 3%;
 }
 .positions {
-    font-style: Regular;
+    font-style: normal;
     font-size: 16px;
     font-Weight: 400;
     line-height: 1.18;
-    line-height: 100%;
     letter-spacing: 3%;
 }
 
@@ -109,11 +98,10 @@
 
 /* ---------------HERO---------------- */
 .hero {
-    font-style: Black;
+    font-style: normal;
     font-size: 44px;
     font-Weight: 900;
     line-height: 1.36;
-    line-height: 116%;
     letter-spacing: 6%;
     color: var(--secondary-text-color);
     background-color: #2F303A;
@@ -122,19 +110,17 @@
 /* --------------/HERO---------------- */
 /* ---------------LIST-UNDER-HERO---------------- */
 .list-under-hero {
-    font-style: Bold;
+    font-style: normal;
     font-size: 14px;
     font-Weight: 700;
     line-height: 1.14;
-    line-height: 100%;
     letter-spacing: 3%;
 }
 .list-details {
-    font-style: Regular;
+    font-style: normal;
     font-size: 14px;
     font-Weight: 400;
     line-height: 1.71;
-    line-height: 146%;
     letter-spacing: 3%;
     color: #757575;
 }
@@ -144,7 +130,7 @@
 /* --------------FOOTER--------------- */
 .logo-footer {
     font-family: var(--secondary-font);
-    font-style: Bold;
+    font-style: normal;
     font-size: 26px;
     font-Weight: 700;
     line-height: 1.19;
@@ -153,11 +139,10 @@
     background-color: #2F303A;
 }
 .address {
-    font-style: Normal;
+    font-style: normal;
     font-size: 14px;
     font-Weight: 400;
     line-height: 1.71;
-    line-height: 146%;
     background-color: #2F303A;
 }
 .address-house:hover,
